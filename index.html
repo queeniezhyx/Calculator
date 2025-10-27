@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="text-display">0</div>
+
+        <!-- Display Button -->
+        <div class="button">
+            <div class="first-row">
+                <button class="btn operator" id="btn-deleteAll" data-type="clear-all">AC</button>
+                <button class="btn operator" id="btn-percentage" data-type="percent">%</button>
+                <button class="btn operator" id="btn-delete" data-type="clear-entry">C</button>
+                <button class="btn operator" id="btn-devide" data-type="operator" data-value="/">/</button>
+            </div>
+            <div class="second-row">
+                <button class="btn" id="btn-7" data-type="digit">7</button>
+                <button class="btn" id="btn-8" data-type="digit">8</button>
+                <button class="btn" id="btn-9" data-type="digit">9</button>
+                <button class="btn operator" id="btn-multiply" data-type="operator" data-value="*">*</button>
+            </div>
+
+            <div class="third-row">
+                <button class="btn" id="btn-4" data-type="digit">4</button>
+                <button class="btn" id="btn-5" data-type="digit">5</button>
+                <button class="btn" id="btn-6" data-type="digit">6</button>
+                <button class="btn operator" id="btn-minus" data-type="operator" data-value="-">-</button>
+            </div>
+
+            <div class="fourth-row">
+                <button class="btn" id="btn-1" data-type="digit">1</button>
+                <button class="btn" id="btn-2" data-type="digit">2</button>
+                <button class="btn" id="btn-3" data-type="digit">3</button>
+                <button class="btn operator" id="btn-plus" data-type="operator" data-value="+">+</button>
+            </div>
+
+            <div class="fifth-row">
+                <button class="btn" id="btn-00" data-type="digit">00</button>
+                <button class="btn" id="btn-0" data-type="digit">0</button>
+                <button class="btn" id="btn-dot" data-type="decimal">.</button>
+                <button class="btn operator" id="btn-equal" data-type="equal">=</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img id="gh-logo" src="pictures/github.png" alt="github logo">
+        <a href="https://github.com/ngvuthtinh" target="_blank">Ng Vu Thanh Tinh</a>
+    </footer>
+</body>
+
+</html>
